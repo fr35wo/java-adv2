@@ -1,10 +1,10 @@
-package was.httepserver;
+package was.httpserver;
 
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
-import was.httepserver.servlet.InternalErrorServlet;
-import was.httepserver.servlet.NotFoundServlet;
+import was.httpserver.servlet.InternalErrorServlet;
+import was.httpserver.servlet.NotFoundServlet;
 
 public class ServletManager {
     private final Map<String, HttpServlet> servletMap = new HashMap<>();

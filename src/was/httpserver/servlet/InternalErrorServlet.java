@@ -1,8 +1,8 @@
-package was.httepserver.servlet;
+package was.httpserver.servlet;
 
-import was.httepserver.HttpRequest;
-import was.httepserver.HttpResponse;
-import was.httepserver.HttpServlet;
+import was.httpserver.HttpRequest;
+import was.httpserver.HttpResponse;
+import was.httpserver.HttpServlet;
 
 public class InternalErrorServlet implements HttpServlet {
     @Override

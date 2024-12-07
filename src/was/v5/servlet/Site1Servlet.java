@@ -1,9 +1,9 @@
 package was.v5.servlet;
 
 import java.io.IOException;
-import was.httepserver.HttpRequest;
-import was.httepserver.HttpResponse;
-import was.httepserver.HttpServlet;
+import was.httpserver.HttpRequest;
+import was.httpserver.HttpResponse;
+import was.httpserver.HttpServlet;
 
 public class Site1Servlet implements HttpServlet {
     @Override

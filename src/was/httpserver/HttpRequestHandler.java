@@ -1,4 +1,4 @@
-package was.httepserver;
+package was.httpserver;
 
 import static java.nio.charset.StandardCharsets.UTF_8;
 import static util.MyLogger.log;
@@ -8,8 +8,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.Socket;
-import static java.nio.charset.StandardCharsets.*;
-import static util.MyLogger.log;
+
 public class HttpRequestHandler implements Runnable {
     private final Socket socket;
     private final ServletManager servletManager;

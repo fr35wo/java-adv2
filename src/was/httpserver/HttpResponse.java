@@ -1,4 +1,4 @@
-package was.httepserver;
+package was.httpserver;
 
 import java.io.PrintWriter;
 import static java.nio.charset.StandardCharsets.*;

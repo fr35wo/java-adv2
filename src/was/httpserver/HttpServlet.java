@@ -1,4 +1,4 @@
-package was.httepserver;
+package was.httpserver;
 
 import java.io.IOException;
 

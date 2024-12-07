@@ -1,9 +1,9 @@
-package was.httepserver.servlet;
+package was.httpserver.servlet;
 
 import java.io.IOException;
-import was.httepserver.HttpRequest;
-import was.httepserver.HttpResponse;
-import was.httepserver.HttpServlet;
+import was.httpserver.HttpRequest;
+import was.httpserver.HttpResponse;
+import was.httpserver.HttpServlet;
 
 public class DiscardServlet implements HttpServlet {
     @Override

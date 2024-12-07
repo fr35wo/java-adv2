@@ -1,7 +1,6 @@
-package was.httepserver;
+package was.httpserver;
 
 import static java.nio.charset.StandardCharsets.*;
-import static util.MyLogger.log;
 
 import java.io.BufferedReader;
 import java.io.IOException;
