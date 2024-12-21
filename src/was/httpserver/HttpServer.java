@@ -18,7 +18,8 @@ public class HttpServer {
         this.servletManager = servletManager;
     }
 
-    public void start() throws IOException { ServerSocket serverSocket = new ServerSocket(port);
+    public void start() throws IOException {
+        ServerSocket serverSocket = new ServerSocket(port);
         log("서버 시작 port: " + port);
         while (true) {
             Socket socket = serverSocket.accept();
